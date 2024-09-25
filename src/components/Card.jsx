@@ -17,7 +17,7 @@ const Card = ({ image, title, description }) => {
         <>
             <div
                 className="border rounded-lg shadow-lg p-4 cursor-pointer hover:shadow-2xl transition-transform duration-300 transform hover:scale-105 h-[420px]"
-                onClick={handleCardClick()}
+                onClick={handleCardClick}
             >
                 <img
                     src={image}
